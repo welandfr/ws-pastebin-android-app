@@ -1,0 +1,13 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="WebSocket Connection">
+
+        <EditTextPreference
+            app:key="url"
+            app:title="Server URL including token"
+            app:useSimpleSummaryProvider="true"
+            app:defaultValue="wss://"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
